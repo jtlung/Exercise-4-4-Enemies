@@ -7,6 +7,7 @@ func _ready():
 	await enemy.ready
 
 func start():
+	enemy.set_animation("Moving")
 	pass
 
 func physics_process(_delta):
